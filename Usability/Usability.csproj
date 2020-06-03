@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Poderosa.Usability</RootNamespace>
     <AssemblyName>Poderosa.Usability</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -145,9 +145,7 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="PoderosaLogViewerPlugin.cs" />
-    <Compile Include="PoderosaLogViewerSession.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="PoderosaLogViewerSession.cs" />
     <Compile Include="PreferenceEditor.cs">
       <SubType>Form</SubType>
     </Compile>

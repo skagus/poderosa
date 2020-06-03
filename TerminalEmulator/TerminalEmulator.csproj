@@ -12,7 +12,7 @@
     <AssemblyName>Poderosa.TerminalEmulator</AssemblyName>
     <StartupObject>
     </StartupObject>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -69,9 +69,7 @@
     <Compile Include="CharDecoder.cs" />
     <Compile Include="CommandResultEx.cs" />
     <Compile Include="CommandResultPopup.cs" />
-    <Compile Include="CommandResultPopupSession.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="CommandResultPopupSession.cs" />
     <Compile Include="Encoding.cs" />
     <Compile Include="GEnv.cs" />
     <Compile Include="IntelliSense.cs" />
